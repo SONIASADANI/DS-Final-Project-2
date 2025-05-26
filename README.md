@@ -58,4 +58,6 @@ Notes
 - The original midterm project used the **Sakila** database. For this final, we switched to **AdventureWorks + Northwind** for better support of streaming and integration use cases.
 - File paths are currently local but could be migrated to DBFS or cloud buckets.
 - One dimension originally planned for MongoDB (e.g., products) was instead loaded via CSV due to technical issues with Atlas connectivity during streaming setup. The fallback source still meets the requirement for using multiple data formats and supports full pipeline integration.
-- - The `dim_products` table was created from a local JSON file (`film_data.json`) rather than a CSV file.
+- The `dim_products` table was created from a local JSON file (`film_data.json`) rather than a CSV file.
+
+Submitted by Sonia Sadani for DS-2002 – Data Project 2 (Final)
